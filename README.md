@@ -1,6 +1,6 @@
 # MEMS-using-LSTM-RNN
 About The code and dataset used in the published paper: Predictive Design of MEMS Gas Sensors Using Bayesian Optimized LSTM Recurrent Neural Networks
-# MEMS Gas Sensor Predictive Design using Bayesian Optimized LSTM
+# Predictive Design of MEMS Gas Sensors Using Bayesian Optimized LSTM Recurrent Neural Networks
 
 This repository contains the code and datasets for the **predictive design of MEMS gas sensors** using **Bayesian-optimized Long Short-Term Memory (LSTM)** networks. The approach integrates **Bayesian optimization** with **LSTM networks** to accurately predict key sensor design parameters (SDPs) such as **resonance frequency**, **quality factor**, and **mass sensitivity** directly from physical structural inputs. This method significantly reduces the reliance on traditional simulation-heavy workflows and accelerates the MEMS sensor design process.
 
@@ -30,3 +30,20 @@ This repository contains the code and datasets for the **predictive design of ME
 
 ```bash
 git clone https://github.com/yourusername/MEMS_Gas_Sensor_Predictive_Design.git
+
+## Future Work
+Our model provides a foundation for simulation-free design of MEMS sensors, but several improvements and extensions are planned:
+
+Data Augmentation: To enhance model robustness, real-world data from MEMS sensor prototypes will be incorporated for further validation.
+
+Hybrid Modeling: Future research will combine physics-based models with machine learning to better capture extreme edge cases and sensor imperfections.
+
+Application to Real-World MEMS Sensors: The model will be validated using empirical sensor data to improve real-world generalization.
+
+Integration into Connected and Automated Systems: Expanding the application of the framework to areas such as connected vehicles and smart systems.
+
+## Please consider citing our work:
+Coming soon
+
+This **README.md** includes an overview of the project, key features, dataset files, installation instructions, future work, and citation information. It is formatted for a GitHub repository and highlights the core contributions of your work, making it easy for others to understand and use the project.
+
